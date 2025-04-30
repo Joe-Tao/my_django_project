@@ -1,0 +1,36 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# VS Code / PyCharm config
+.vscode/
+.idea/
+
+# Test output
+*.log
+*.coverage
+coverage.xml
+htmlcov/
+
+# Pytest cache
+.pytest_cache/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# GitHub Actions artifacts (if any)
+*.bak
+*.tmp
+
+# Jupyter Notebook checkpoints (if将来用notebook)
+.ipynb_checkpoints/
+.history/
+.venv/
